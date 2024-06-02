@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="840dd6df-ef83-4384-85b4-8db54c745271" name="Changes" comment="first">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_10.sql" beforeDir="false" afterPath="$PROJECT_DIR$/query_10.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_4.sql" beforeDir="false" afterPath="$PROJECT_DIR$/query_4.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_5.sql" beforeDir="false" afterPath="$PROJECT_DIR$/query_5.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_6.sql" beforeDir="false" afterPath="$PROJECT_DIR$/query_6.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_7.sql" beforeDir="false" afterPath="$PROJECT_DIR$/query_7.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_8.sql" beforeDir="false" afterPath="$PROJECT_DIR$/query_8.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_9.sql" beforeDir="false" afterPath="$PROJECT_DIR$/query_9.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +30,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "BogdanKozlov35"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/BogdanKozlov35/Python_web_06.git",
@@ -79,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717309204067</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first">
+      <option name="closed" value="true" />
+      <created>1717309463020</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717309463020</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
