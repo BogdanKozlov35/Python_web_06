@@ -1,9 +1,19 @@
 import psycopg2
+import os
 import logging
+
+from dotenv import load_dotenv
 from contextlib import contextmanager
 
+
+load_dotenv()
 # Configure logging
 logging.basicConfig(level=logging.ERROR, format='%(asctime)s %(levelname)s:%(message)s')
+
+DB_NAME = os.getenv("DB_NAME")
+DB_USER = os.getenv("DB_USER")
+DB_PASSWORD = os.getenv("DB_PASSWORD")
+DB_HOST = os.getenv("DB_HOST")
 
 
 @contextmanager
@@ -13,7 +23,7 @@ def create_connection():
 
     try:
         """ create a database connection to database """
-        conn = psycopg2.connect(host="localhost", database="postgres", user="admin", password="example")
+        conn = psycopg2.connect(host=DB_HOST, database=DB_NAME, user=DB_USER, password=DB_PASSWORD)
         yield conn
 
     except psycopg2.OperationalError as err:
